@@ -1,5 +1,7 @@
 import './App.css';
 import Banner from './components/Banner';
+import Footer from './components/Footer';
+import MyButton from './components/MyButton';
 import NavigationBar from './components/NavigationBar';
 
 
@@ -8,7 +10,10 @@ function App() {
     <>
       <NavigationBar />
       <Banner />
+      <MyButton />
+      <Footer />
     </>
+    
   );
 }
 

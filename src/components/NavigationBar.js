@@ -3,7 +3,13 @@ import React from "react";
 
 const NavigationBar = () => {
     return(
-        <h1>Ini adalah Navigation Bar</h1>
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
     )
 }
 
